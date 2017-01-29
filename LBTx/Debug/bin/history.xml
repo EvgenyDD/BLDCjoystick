@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="4.8.4 -mcpu=cortex-m3 -mthumb -g -nostartfiles -Map=LBTx.map -O1 --gc-sections -LC:\CooCox\CoIDE\configuration\ProgramData\LBTx -TC:\CooCox\CoIDE\configuration\ProgramData\LBTx/arm-gcc-link.ld -g">
+      <target file="LBTx.elf" lastModified="159ea30daad">
+         <source file="..\obj\stm32f10x_rtc.o" lastModified="158df6df8b3"/>
+         <source file="..\obj\usb_core.o" lastModified="158df6dfa33"/>
+         <source file="..\obj\string.o" lastModified="158df6dfb68"/>
+         <source file="..\obj\stm32f10x_tim.o" lastModified="158df6dfd1a"/>
+         <source file="..\obj\sound.o" lastModified="158e51291aa"/>
+         <source file="..\obj\UI.o" lastModified="159ea30d7e9"/>
+         <source file="..\obj\NRF24L01.o" lastModified="159e61b44cd"/>
+         <source file="..\obj\usb_int.o" lastModified="158df6dffef"/>
+         <source file="..\obj\system_stm32f10x.o" lastModified="158df6e007f"/>
+         <source file="..\obj\usb_desc.o" lastModified="158df6e0100"/>
+         <source file="..\obj\usb_regs.o" lastModified="158df6e026a"/>
+         <source file="..\obj\DefaultFonts.o" lastModified="158df6e0312"/>
+         <source file="..\obj\stm32f10x_pwr.o" lastModified="158df6e0394"/>
+         <source file="..\obj\startup_stm32f10x_md.o" lastModified="158df6e03f1"/>
+         <source file="..\obj\hw_config.o" lastModified="158df6e0491"/>
+         <source file="..\obj\stm32f10x_gpio.o" lastModified="158df6e0545"/>
+         <source file="..\obj\usb_prop.o" lastModified="158df6e05e9"/>
+         <source file="..\obj\usb_pwr.o" lastModified="158df6e0671"/>
+         <source file="..\obj\usb_init.o" lastModified="158df6e06e6"/>
+         <source file="..\obj\main.o" lastModified="159ea1656f4"/>
+         <source file="..\obj\hw_hal.o" lastModified="159e627cc5e"/>
+         <source file="..\obj\math_.o" lastModified="158df6e0936"/>
+         <source file="..\obj\stm32f10x_crc.o" lastModified="158df6e09af"/>
+         <source file="..\obj\stm32f10x_rcc.o" lastModified="158df6e0a9c"/>
+         <source file="..\obj\stm32f10x_exti.o" lastModified="158df6e0b23"/>
+         <source file="..\obj\stm32f10x_adc.o" lastModified="158df6e0c06"/>
+         <source file="..\obj\LCD.o" lastModified="158df6e0d32"/>
+         <source file="..\obj\stm32f10x_usart.o" lastModified="158df6e0e0a"/>
+         <source file="..\obj\buffer.o" lastModified="158df6e0e80"/>
+         <source file="..\obj\usb_sil.o" lastModified="158df6e0ef2"/>
+         <source file="..\obj\stm32f10x_flash.o" lastModified="158df6e0fda"/>
+         <source file="..\obj\stm32f10x_it.o" lastModified="158df6e1052"/>
+         <source file="..\obj\debug.o" lastModified="158df6e10d3"/>
+         <source file="..\obj\usb_endp.o" lastModified="158df6e1152"/>
+         <source file="..\obj\stm32f10x_dma.o" lastModified="158df6e11e5"/>
+         <source file="..\obj\misc.o" lastModified="158df6e1261"/>
+         <source file="..\obj\interface.o" lastModified="159e61b465b"/>
+         <source file="..\obj\stm32f10x_spi.o" lastModified="158df6e13dd"/>
+         <source file="..\obj\stm32f10x_i2c.o" lastModified="158df6e14c1"/>
+         <source file="..\obj\usb_mem.o" lastModified="158df6e1554"/>
+         <source file="..\obj\usb_istr.o" lastModified="158df6e15e5"/>
+         <source file="..\obj\stm32f10x_bkp.o" lastModified="158df6e1670"/>
+         <source file="..\obj\stm32f10x_iwdg.o" lastModified="158df6e16ef"/>
+      </target>
+   </processor>
+</history>

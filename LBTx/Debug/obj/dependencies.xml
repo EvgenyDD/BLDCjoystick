@@ -1,0 +1,380 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dependencies>
+   <includePath signature="/IH:\WORKSPACE\_STM32 /IH:\WORKSPACE\_STM32\LB_DEV\LBTx\STM32_USB-FS-Device_Driver\inc /IH:\WORKSPACE\_STM32\LB_DEV /IH:\WORKSPACE\_STM32\LB_DEV\LBTx\stm_lib /IH:\WORKSPACE\_STM32\LB_DEV\LBTx\cmsis_boot /IH:\WORKSPACE\_STM32\LB_DEV\LBTx\cmsis /IH:\WORKSPACE\_STM32\LB_DEV\LBTx\stm_lib\inc /IH:\WORKSPACE\_STM32\LB_DEV\LBTx\STM32_USB-FS-Device_Driver /IH:\WORKSPACE\_STM32\LB_DEV\LBTx">
+      <source file="..\..\..\debug.h" lastModified="154ebe0b489">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_usart.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_gpio.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_iwdg.c" lastModified="154bef219e3">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_iwdg.h"/>
+      </source>
+      <source file="..\..\..\STM32_USB-FS-Device_Driver\usb_istr.c" lastModified="147e4ec03bf">
+         <include file="..\..\..\STM32_USB-FS-Device_Driver\inc\usb_lib.h"/>
+         <include file="..\..\..\STM32_USB-FS-Device_Driver\usb_prop.h"/>
+         <include file="..\..\..\STM32_USB-FS-Device_Driver\usb_pwr.h"/>
+         <include file="..\..\..\STM32_USB-FS-Device_Driver\usb_istr.h"/>
+      </source>
+      <source file="..\..\..\STM32_USB-FS-Device_Driver\usb_conf.h" lastModified="1544c7bcbf0">
+      </source>
+      <source file="..\..\..\STM32_USB-FS-Device_Driver\src\usb_int.c" lastModified="12ecd9b04e0">
+         <include file="..\..\..\STM32_USB-FS-Device_Driver\inc\usb_lib.h"/>
+      </source>
+      <source file="..\..\..\debug.c" lastModified="154ebe09a49">
+         <include file="..\..\..\debug.h"/>
+         <include file="..\..\..\string.h"/>
+         <include file="..\..\..\stm_lib\inc\misc.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\src\misc.c" lastModified="154bef25266">
+         <include file="..\..\..\stm_lib\inc\misc.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_gpio.h" lastModified="154bef1fb0b">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\STM32_USB-FS-Device_Driver\inc\usb_init.h" lastModified="12ecd9b04e0">
+      </source>
+      <source file="..\..\..\STM32_USB-FS-Device_Driver\inc\usb_def.h" lastModified="12ecd9b04e0">
+      </source>
+      <source file="..\..\..\STM32_USB-FS-Device_Driver\src\usb_regs.c" lastModified="12ecd9b04e0">
+         <include file="..\..\..\STM32_USB-FS-Device_Driver\inc\usb_lib.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32f10x.h" lastModified="154bef1fb87">
+      </source>
+      <source file="..\..\..\STM32_USB-FS-Device_Driver\stm32f10x_it.h" lastModified="147ea41b3af">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32f10x.c" lastModified="154bef1fb81">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\STM32_USB-FS-Device_Driver\usb_pwr.h" lastModified="147e4da5b0d">
+      </source>
+      <source file="..\..\..\cmsis\core_cm3.h" lastModified="154bef1ff91">
+         <include file="..\..\..\cmsis\core_cmInstr.h"/>
+         <include file="..\..\..\cmsis\core_cmFunc.h"/>
+      </source>
+      <source file="..\..\..\STM32_USB-FS-Device_Driver\stm32f10x_it.c" lastModified="147e4d8e09d">
+         <include file="..\..\..\STM32_USB-FS-Device_Driver\stm32f10x_it.h"/>
+         <include file="..\..\..\STM32_USB-FS-Device_Driver\inc\usb_lib.h"/>
+         <include file="..\..\..\STM32_USB-FS-Device_Driver\usb_istr.h"/>
+         <include file="..\..\..\STM32_USB-FS-Device_Driver\hw_config.h"/>
+      </source>
+      <source file="..\..\..\STM32_USB-FS-Device_Driver\usb_pwr.c" lastModified="147e4db32f6">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+         <include file="..\..\..\STM32_USB-FS-Device_Driver\inc\usb_lib.h"/>
+         <include file="..\..\..\STM32_USB-FS-Device_Driver\usb_conf.h"/>
+         <include file="..\..\..\STM32_USB-FS-Device_Driver\usb_pwr.h"/>
+         <include file="..\..\..\STM32_USB-FS-Device_Driver\hw_config.h"/>
+      </source>
+      <source file="..\..\..\STM32_USB-FS-Device_Driver\inc\usb_mem.h" lastModified="12ecd9b04e0">
+      </source>
+      <source file="..\..\..\STM32_USB-FS-Device_Driver\inc\usb_sil.h" lastModified="12ecd9b04e0">
+      </source>
+      <source file="..\..\..\STM32_USB-FS-Device_Driver\inc\usb_regs.h" lastModified="12ecd9b04e0">
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_iwdg.h" lastModified="154bef219e1">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\buffer.h" lastModified="155246b1691">
+      </source>
+      <source file="..\..\..\STM32_USB-FS-Device_Driver\usb_prop.h" lastModified="1544c927af1">
+      </source>
+      <source file="..\..\..\buffer.c" lastModified="155246b12a6">
+         <include file="..\..\..\buffer.h"/>
+      </source>
+      <source file="..\..\..\STM32_USB-FS-Device_Driver\usb_prop.c" lastModified="1544c927aaa">
+         <include file="..\..\..\STM32_USB-FS-Device_Driver\inc\usb_lib.h"/>
+         <include file="..\..\..\STM32_USB-FS-Device_Driver\usb_conf.h"/>
+         <include file="..\..\..\STM32_USB-FS-Device_Driver\usb_prop.h"/>
+         <include file="..\..\..\STM32_USB-FS-Device_Driver\usb_desc.h"/>
+         <include file="..\..\..\STM32_USB-FS-Device_Driver\usb_pwr.h"/>
+         <include file="..\..\..\STM32_USB-FS-Device_Driver\hw_config.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_bkp.h" lastModified="154bef25ed9">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\sound.h" lastModified="158e50c3518">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\STM32_USB-FS-Device_Driver\src\usb_mem.c" lastModified="12ecd9b04e0">
+         <include file="..\..\..\STM32_USB-FS-Device_Driver\inc\usb_lib.h"/>
+      </source>
+      <source file="..\..\..\math_.h" lastModified="15282d18379">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\STM32_USB-FS-Device_Driver\src\usb_sil.c" lastModified="12ecd9b04e0">
+         <include file="..\..\..\STM32_USB-FS-Device_Driver\inc\usb_lib.h"/>
+      </source>
+      <source file="..\..\..\string.h" lastModified="1576031240f">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\startup\startup_stm32f10x_md.c" lastModified="154bef1fb3f">
+      </source>
+      <source file="..\..\..\sound.c" lastModified="158e5128dbe">
+         <include file="..\..\..\sound.h"/>
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_tim.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_gpio.h"/>
+         <include file="..\..\..\hw_hal.h"/>
+      </source>
+      <source file="..\..\..\math_.c" lastModified="15282d18365">
+         <include file="..\..\..\math_.h"/>
+      </source>
+      <source file="..\..\..\string.c" lastModified="15760d2fe09">
+         <include file="..\..\..\string.h"/>
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+         <include file="..\..\..\macros.h"/>
+      </source>
+      <source file="..\..\..\STM32_USB-FS-Device_Driver\usb_desc.h" lastModified="1544c7d654c">
+      </source>
+      <source file="..\..\..\cmsis_boot\stm32f10x_conf.h" lastModified="154bef1fb6e">
+      </source>
+      <source file="..\..\..\STM32_USB-FS-Device_Driver\usb_desc.c" lastModified="1544c7cc480">
+         <include file="..\..\..\STM32_USB-FS-Device_Driver\inc\usb_lib.h"/>
+         <include file="..\..\..\STM32_USB-FS-Device_Driver\usb_desc.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_bkp.c" lastModified="154bef25eda">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_bkp.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\hw_hal.h" lastModified="158dffcaaf6">
+      </source>
+      <source file="..\..\..\hw_hal.c" lastModified="159e627c750">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_adc.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_crc.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_gpio.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_spi.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_i2c.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_tim.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_flash.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_usart.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_exti.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_pwr.h"/>
+         <include file="..\..\..\stm_lib\inc\misc.h"/>
+         <include file="..\..\..\hw_hal.h"/>
+         <include file="..\..\..\STM32_USB-FS-Device_Driver\inc\usb_lib.h"/>
+         <include file="..\..\..\STM32_USB-FS-Device_Driver\usb_prop.h"/>
+         <include file="..\..\..\STM32_USB-FS-Device_Driver\usb_desc.h"/>
+         <include file="..\..\..\STM32_USB-FS-Device_Driver\hw_config.h"/>
+         <include file="..\..\..\STM32_USB-FS-Device_Driver\usb_pwr.h"/>
+      </source>
+      <source file="..\..\..\STM32_USB-FS-Device_Driver\inc\usb_type.h" lastModified="12ecd9b04e0">
+         <include file="..\..\..\STM32_USB-FS-Device_Driver\usb_conf.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_spi.h" lastModified="154bef229aa">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_dma.h" lastModified="154bef205a3">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_rcc.h" lastModified="154bef1fbc3">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\cmsis\core_cmInstr.h" lastModified="154bef2038d">
+      </source>
+      <source file="..\..\..\LCD.h" lastModified="1576024ce28">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_gpio.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_i2c.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+         <include file="..\..\..\macros.h"/>
+      </source>
+      <source file="..\..\..\LCD.c" lastModified="158d108ea07">
+         <include file="..\..\..\LCD.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_dma.c" lastModified="154bef205a4">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_dma.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_spi.c" lastModified="154bef229ce">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_spi.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\macros.h" lastModified="154c411a1e3">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_gpio.h"/>
+         <include file="..\..\..\string.h"/>
+         <include file="..\..\..\macros.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_rcc.c" lastModified="154bef1fbc6">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_exti.c" lastModified="154bef2011c">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_exti.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_usart.h" lastModified="154bef24a97">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\STM32_USB-FS-Device_Driver\src\usb_core.c" lastModified="12ecd9b04e0">
+         <include file="..\..\..\STM32_USB-FS-Device_Driver\inc\usb_lib.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_flash.c" lastModified="154bef23683">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_flash.h"/>
+      </source>
+      <source file="..\..\..\cmsis\core_cmFunc.h" lastModified="154bef2038b">
+      </source>
+      <source file="..\..\..\interface.h" lastModified="159e61b3efe">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_flash.h" lastModified="154bef23657">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_usart.c" lastModified="154bef24a98">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_usart.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\interface.c" lastModified="159e61b3b8d">
+         <include file="..\..\..\interface.h"/>
+         <include file="..\..\..\buffer.h"/>
+         <include file="..\..\..\NRF24L01.h"/>
+         <include file="..\..\..\hw_hal.h"/>
+      </source>
+      <source file="..\..\..\STM32_USB-FS-Device_Driver\inc\usb_core.h" lastModified="12ecd9b04e0">
+      </source>
+      <source file="..\..\..\NRF24L01.h" lastModified="15888b11db7">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_gpio.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_spi.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_crc.h" lastModified="154bef350c5">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_adc.h" lastModified="154bef242ca">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\STM32_USB-FS-Device_Driver\hw_config.h" lastModified="1544c753e64">
+         <include file="..\..\..\STM32_USB-FS-Device_Driver\inc\usb_type.h"/>
+      </source>
+      <source file="..\..\..\NRF24L01.c" lastModified="158e0179e28">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_exti.h"/>
+         <include file="..\..\..\NRF24L01.h"/>
+         <include file="..\..\..\macros.h"/>
+         <include file="..\..\..\stm_lib\inc\misc.h"/>
+         <include file="..\..\..\interface.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_exti.h" lastModified="154bef2011c">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\STM32_USB-FS-Device_Driver\hw_config.c" lastModified="158808a0a24">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_gpio.h"/>
+         <include file="..\..\..\STM32_USB-FS-Device_Driver\stm32f10x_it.h"/>
+         <include file="..\..\..\stm_lib\inc\misc.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_flash.h"/>
+         <include file="..\..\..\STM32_USB-FS-Device_Driver\inc\usb_lib.h"/>
+         <include file="..\..\..\STM32_USB-FS-Device_Driver\usb_prop.h"/>
+         <include file="..\..\..\STM32_USB-FS-Device_Driver\usb_desc.h"/>
+         <include file="..\..\..\STM32_USB-FS-Device_Driver\hw_config.h"/>
+         <include file="..\..\..\STM32_USB-FS-Device_Driver\usb_pwr.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_crc.c" lastModified="154bef350c7">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_crc.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_adc.c" lastModified="154bef242cc">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_adc.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\misc.h" lastModified="154bef25265">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\STM32_USB-FS-Device_Driver\inc\usb_lib.h" lastModified="147e89f6212">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+         <include file="..\..\..\STM32_USB-FS-Device_Driver\inc\usb_type.h"/>
+         <include file="..\..\..\STM32_USB-FS-Device_Driver\inc\usb_regs.h"/>
+         <include file="..\..\..\STM32_USB-FS-Device_Driver\inc\usb_def.h"/>
+         <include file="..\..\..\STM32_USB-FS-Device_Driver\inc\usb_core.h"/>
+         <include file="..\..\..\STM32_USB-FS-Device_Driver\inc\usb_init.h"/>
+         <include file="..\..\..\STM32_USB-FS-Device_Driver\inc\usb_mem.h"/>
+         <include file="..\..\..\STM32_USB-FS-Device_Driver\inc\usb_int.h"/>
+         <include file="..\..\..\STM32_USB-FS-Device_Driver\inc\usb_sil.h"/>
+      </source>
+      <source file="..\..\..\UI.h" lastModified="159ea164929">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_gpio.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_bkp.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_i2c.h" lastModified="154bef2308b">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_pwr.h" lastModified="154bef20b7a">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_rtc.h" lastModified="154bef20b5c">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_gpio.c" lastModified="154bef1fb31">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_gpio.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_tim.h" lastModified="154bef2428f">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\main.c" lastModified="159ea164d40">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_adc.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_crc.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_gpio.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_iwdg.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_spi.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_i2c.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_tim.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_flash.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_usart.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_exti.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_pwr.h"/>
+         <include file="..\..\..\stm_lib\inc\misc.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_bkp.h"/>
+         <include file="..\..\..\hw_hal.h"/>
+         <include file="..\..\..\LCD.h"/>
+         <include file="..\..\..\NRF24L01.h"/>
+         <include file="..\..\..\interface.h"/>
+         <include file="..\..\..\UI.h"/>
+         <include file="..\..\..\sound.h"/>
+      </source>
+      <source file="..\..\..\STM32_USB-FS-Device_Driver\inc\usb_int.h" lastModified="12ecd9b04e0">
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_i2c.c" lastModified="154bef2308c">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_i2c.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\DefaultFonts.c" lastModified="15760ceebcb">
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_pwr.c" lastModified="154bef20b8e">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_pwr.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_rtc.c" lastModified="154bef20b5d">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rtc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\stm32f10x.h" lastModified="154bef1ff4f">
+         <include file="..\..\..\cmsis\core_cm3.h"/>
+         <include file="..\..\..\cmsis_boot\system_stm32f10x.h"/>
+         <include file="..\..\..\cmsis_boot\stm32f10x_conf.h"/>
+      </source>
+      <source file="..\..\..\STM32_USB-FS-Device_Driver\usb_endp.c" lastModified="1544cbba4fc">
+         <include file="..\..\..\STM32_USB-FS-Device_Driver\inc\usb_lib.h"/>
+         <include file="..\..\..\STM32_USB-FS-Device_Driver\usb_desc.h"/>
+         <include file="..\..\..\STM32_USB-FS-Device_Driver\inc\usb_mem.h"/>
+         <include file="..\..\..\STM32_USB-FS-Device_Driver\hw_config.h"/>
+         <include file="..\..\..\STM32_USB-FS-Device_Driver\usb_istr.h"/>
+         <include file="..\..\..\STM32_USB-FS-Device_Driver\usb_pwr.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_tim.c" lastModified="154bef242bb">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_tim.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\STM32_USB-FS-Device_Driver\usb_istr.h" lastModified="147e4ea38df">
+         <include file="..\..\..\STM32_USB-FS-Device_Driver\usb_conf.h"/>
+      </source>
+      <source file="..\..\..\STM32_USB-FS-Device_Driver\src\usb_init.c" lastModified="12ecd9b04e0">
+         <include file="..\..\..\STM32_USB-FS-Device_Driver\inc\usb_lib.h"/>
+      </source>
+   </includePath>
+</dependencies>
